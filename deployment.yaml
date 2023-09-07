@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: primuslearning
+  name: Olatech
   labels:
-    app: primuslearning
+    app: Olatech
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: primuslearning
+      app: Olatech
   template:
     metadata:
       labels:
-        app: primuslearning
+        app: Olatech
     spec:
       containers:
-        - name: primuslearning
+        - name: Olatech
           image: 308134718221.dkr.ecr.us-east-2.amazonaws.com/primuslearning:1.1
           imagePullPolicy: Always
           ports:
