@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: primuslearning
+  name: olatech
 spec:
   selector:
-    app: primuslearning
+    app: olatech
   ports:
     - protocol: TCP
       port: 80
